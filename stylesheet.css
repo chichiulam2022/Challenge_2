@@ -12,7 +12,7 @@
     --background-color-1: linear-gradient(90deg, rgba(5,0,87,1) 0%, rgba(68,0,34,1) 0%, rgba(37,0,74,1) 100%); 
     --background-color-2: linear-gradient(90deg, rgba(68,0,34,1) 22%, rgba(74,28,0,1) 82%);
     --text-shadow-color: #F7ECFF;
-    --white: #FBEEEB;
+    --white: #fadad3;
     --navbar-font-fam: font-family: 'Fredoka One', cursive;
     --h2-font-size: 45px;
     --h3-font-size: 35px;
@@ -83,7 +83,7 @@ nav ul li a {
 
 span {
     color: var(--main-color);
-    text-shadow: 1px 1px 1px var(--text-shadow-color);
+    text-shadow: 1px 1px 1px var(--content-color);
 }
 
 .hero {
@@ -546,6 +546,10 @@ textarea {
 .contact-me-section {
     display: flex;
     justify-content: center;
+}
+
+.contact-me-container h3 {
+    color: var(--white);
 }
 
 .social-med {
