@@ -94,13 +94,14 @@ span {
     width: 100%;
 }
 
-.logo {
+ .logo {
     color: var(--text-shadow-color);
     cursor: pointer;
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    font-family: 'Megrim', cursive;
+    font-weight: 900;
 }
+
 
 .main-menu li a:hover {
     color: rgb(245, 120, 18);
