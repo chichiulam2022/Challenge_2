@@ -603,87 +603,104 @@ textarea {
 }
 
 @media all and (max-width: 1485px) {
-    .logo {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        font-size: 25px;
-        color: #fff;
-        cursor: text;
-    }
-
     nav ul li a {
-        font-size: 14px;
-        display: flex;
-        flex-wrap: wrap;
+        font-size: 15px;
     }
-
-    .lang-menu ul li a::before {
-        display: none;
-    }
-
-    .lang-menu ul {
-        background-color: transparent;
-        margin-top: 4px;
-    }
-
-    .selected-lang::before,
-    .selected-lang-fr::before {
-        display: none;
+    .logo {
+        font-size: 25px;
     }
 
     .my-repo-btn {
-        font-size: 13px;
+        font-size: 15px;
     }
 
-    .about-me-text h2,
-    .me-text {
-        display: flex;
-        flex-wrap: wrap;
-        font-size: var(--h2-font-size);
-    }
-
-    .me-text {
-        margin-left: 10px;
-    }
-
-    .about-me {
-        position: relative;
-    }
-
-    .main {
-        position: absolute;
-        height: 100vh;
-        margin-left: 25px;
-        margin-top: 10px;
-    }
-
-    .about-me img {
-        margin-top: 10px;
-        height: 300px;
-        width: 300px
-    }
-
-    .about-me-text p {
-        font-size: var(--p-font-size);
-    }
-
-    .about-me-text h5 {
-        font-size: 20px;
-        display: flex;
-        flex-wrap: wrap;
+    h3 {
+        font-size: 27px;
     }
 }
 
-@media all and (max-width: 1278px) {
-    .logo {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
+@media all and (max-width: 1066px) {
+   .about-me-text h2, .portfolio-section h2, .skill-section h2 {
+       font-size: 30px;
+   }
+   .about-me-text h5 {
+       font-size: 25px;
+   }
+
+   .about-me-text h4 {
+       font-size: 23px;
+   }
+
+   .about-me-text p, .skill-section p{
+       font-size: 21px;
+   }
+
+   .about-me img {
+       /* width: auto;
+       height: auto; */
+       width: 300px;
+       height: 320px;
+   }
+
+   .all-skills {
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: column;
+   }
+
+   .vertical-ln {
+       height: 0;
+       width: 800px;
+       margin: 50px 0;
+   }
+
+   .skill-container {
+       display: flex;
+       width: 800px;
+       justify-content: center;
+   }
+}
+
+@media all and (max-width: 1573px) {
+   .all-skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.vertical-ln {
+    height: 0;
+    width: 800px;
+    margin: 50px 0;
+}
+
+.skill-container {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+}
+
+.info-card {
+    margin-top: 20px;
+}
+
+ .social-med-container{
+    max-width: 600px;
+}
+}
+
+@media all and (max-width: 1333px) {
+    .lang-menu ul li a::before, .selected-lang::before, .selected-lang-fr::before{
+        display: none;
+    }
+}
+
+@media all and (max-width: 1387px) {
+    .social-med-container{
+        max-width: 800px;
     }
 
-    .selected-lang a,
-    .selected-lang-fr a {
-        font-size: 15px;
+    .social-med {
+        width: 800px;
     }
 }
