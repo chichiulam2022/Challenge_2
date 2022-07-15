@@ -23,7 +23,7 @@
 
 .my-name {
     background: #ca029f;
-    background: linear-gradient(to right, #b8c3fc 0%, #666377 25%, #f3d6d6 75%, #c3f8e2 100%);
+    background: linear-gradient(to right, #b8c3fc 0%, #f3d6d6 25%, #f3d6d6 75%, #c3f8e2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
