@@ -295,6 +295,15 @@ span {
     font-weight: bolder;
 }
 
+.my-name {
+    background: #ca5202;
+    background: linear-gradient(to right, #ff3c00 0%, #035664 25%, #da0505 75%, #83048f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-shadow: 5px 0 rgb(218, 70, 12);
+}
+
 .me-text {
     color: var(----main-color);
     font-size: 65px;
