@@ -7,18 +7,27 @@
 
 :root {
     --content-color: #BF55EC;
-    --main-color: #5900b3;
+    --main-color: #5a2e85;
     --second-color: #33001a;
     --background-color-1: linear-gradient(90deg, rgba(5,0,87,1) 0%, rgba(68,0,34,1) 0%, rgba(37,0,74,1) 100%); 
     --background-color-2: linear-gradient(90deg, rgba(68,0,34,1) 22%, rgba(74,28,0,1) 82%);
     --text-shadow-color: #F7ECFF;
     --white: #FBEEEB;
-    --navbar-font-fam: 'Urbanist', sans-serif;
+    --navbar-font-fam: font-family: 'Fredoka One', cursive;
     --h2-font-size: 50px;
     --h3-font-size: 30px;
     --h4-font-size: 25px;
     --p-font-size: 30px;
     --line-height: 1.5;
+}
+
+.my-name {
+    background: #ca5202;
+    background: linear-gradient(to right, #ff3c00 0%, #035664 25%, #da0505 75%, #83048f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-shadow: 5px 0 rgb(218, 70, 12);
 }
 
 footer {
@@ -86,11 +95,11 @@ span {
 }
 
 .logo {
-    color: white;
+    color: var(--text-shadow-color);
     cursor: pointer;
-    font-size: 35px;
+    font-size: 30px;
     letter-spacing: 1px;
-    font-family: var(--navbar-font-fam);
+    font-family: 'Fredoka One', cursive;
 }
 
 .main-menu li a:hover {
@@ -295,15 +304,6 @@ span {
     font-weight: bolder;
 }
 
-.my-name {
-    background: #ca5202;
-    background: linear-gradient(to right, #ff3c00 0%, #035664 25%, #da0505 75%, #83048f 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 900;
-    text-shadow: 5px 0 rgb(218, 70, 12);
-}
-
 .me-text {
     color: var(----main-color);
     font-size: 65px;
@@ -311,10 +311,10 @@ span {
     text-shadow: 1px 1px 1px var(--text-shadow-color);
 }
 
-.lam-decoration {
+/* .lam-decoration {
     font-size: 75px;
     text-shadow: 1px 1px 1px var(--text-shadow-color);
-}
+} */
 
 
 .portfolio-section,
