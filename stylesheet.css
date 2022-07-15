@@ -569,7 +569,8 @@ textarea {
 }
 
 .fa-instagram:hover {
-    color: #C13584;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-radius: 8px;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
