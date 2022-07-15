@@ -60,7 +60,7 @@ h3 {
 
 nav {
     align-items: center;
-    background-color: black;
+    background-color: rgb(85, 14, 85);
     display: flex;
     height: 90px;
     justify-content: space-between;
@@ -103,12 +103,12 @@ span {
 }
 
 .main-menu li a:hover {
-    background-color: var(--main-color);
+    color: rgb(245, 120, 18);
     transition: 0.3s ease-in;
 }
 
 .logo:hover {
-    color: var(--main-color);
+    color: rgb(245, 120, 18);;
     transition: 0.3s ease-in;
 }
 
@@ -653,7 +653,6 @@ textarea {
         height: 100vh;
         margin-left: 25px;
         margin-top: 10px;
-
     }
 
     .about-me img {
