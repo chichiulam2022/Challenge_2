@@ -567,6 +567,7 @@ textarea {
 
 .fa-brands {
    color: #74cddf;
+    transition: 0.4s ease;
 }
 
 .fa-github:hover {
