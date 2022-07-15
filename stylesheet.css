@@ -8,10 +8,11 @@
 :root {
     --content-color: #ff00ff;
     --main-color: #5900b3;
-    --second-color: #330033;
-    --third-color: #33001a;
-    --text-shadow-color: #f2f2f2;
-    --white: #cccccc;
+    --second-color: #33001a;
+    --background-color-1: linear-gradient(90deg, rgba(5,0,87,1) 0%, rgba(68,0,34,1) 0%, rgba(37,0,74,1) 100%); 
+    --background-color-2: linear-gradient(90deg, rgba(68,0,34,1) 22%, rgba(74,28,0,1) 82%);
+    --text-shadow-color: #F7ECFF;
+    --white: #FBEEEB;
     --navbar-font-fam: 'Urbanist', sans-serif;
     --h2-font-size: 50px;
     --h3-font-size: 30px;
@@ -93,7 +94,7 @@ span {
 }
 
 .main-menu li a:hover {
-    color: var(--main-color);
+    background-color: var(--main-color);
     transition: 0.3s ease-in;
 }
 
@@ -227,7 +228,7 @@ span {
 }
 
 .about-me {
-    background-color: var(--second-color);
+    background: var(--background-color-1);
     height: 100vh;
     width: 100%;
     position: relative;
@@ -309,7 +310,7 @@ span {
 
 .portfolio-section,
 .skill-section, .contact-me-section {
-    background-color: var(--third-color);
+    background: var(--background-color-2);
     min-height: 100vh;
     padding: 150px 100px 100px;
     top: 0;
@@ -377,7 +378,7 @@ span {
 }
 
 .port-btn-github {
-    background-color: var(--third-color);
+    background-color: var(--second-color);
     border-radius: 10px;
     border: none;
     color: #ffffff;
@@ -397,7 +398,7 @@ span {
 }
 
 .skill-section {
-    background-color: var(--second-color);
+    background: var(--background-color-1);
 }
 
 .skill-card {
@@ -471,7 +472,7 @@ span {
 form {
     width: 90%;
     max-width: 600px;
-    background-color: var(--main-color);
+    background-color: var(--second-color);
     padding: 20px;
     border-radius: 15px;
     opacity: 0.45;
@@ -547,34 +548,37 @@ textarea {
     align-items: flex-start;
 }
 
-
 .social-med-msg p {
     margin-bottom: 60px;
     font-size: 35px;
     color: var(--white);
 }
 
-#github:hover {
+.fa-brands {
+    color: var(--white);
+}
+
+.fa-github:hover {
     color:  black;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
-#linkedin:hover {
+.fa-linkedin:hover {
     color: #0072b1;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
-#instagram:hover {
+.fa-instagram:hover {
     color: #C13584;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
-#facebook:hover {
+.fa-facebook:hover {
     color: #4267B2;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
 
-#slack:hover {
+.fa-slack:hover {
     color: #2EB67D;
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
 }
@@ -606,7 +610,6 @@ textarea {
     }
 
     .lang-menu ul {
-        /* display: none; */
         background-color: transparent;
         margin-top: 4px;
     }
