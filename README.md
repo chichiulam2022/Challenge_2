@@ -1,4 +1,7 @@
 # Challenge #1: Professional Portfolio by Chi Chiu Lam
+
+https://chichiulam2022.github.io/my-webpage/
+
 This is my first portfolio website that contains my coming-up projects. I would like to make my website bilingual (potentially in another language in the future) in order to reach out different audience.
 
 Some features used in my website:
